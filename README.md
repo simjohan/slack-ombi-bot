@@ -11,7 +11,7 @@ OMBI_API_LOCATION
 ```
 
 ## Links
-https://app.slack.com/app-settings
-https://slack.dev/bolt-js
-https://api.slack.com/block-kit
-https://api.slack.com/methods/chat.postMessage/test
+ * https://app.slack.com/app-settings
+ * https://slack.dev/bolt-js
+ * https://api.slack.com/block-kit
+ * https://api.slack.com/methods/chat.postMessage/test
