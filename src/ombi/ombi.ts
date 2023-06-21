@@ -1,7 +1,5 @@
 import { RequestEngineResult, SearchReponse } from "./models";
-// import * as dotenv from "dotenv";
 
-// dotenv.config();
 const apiKey = process.env.OMBI_API_KEY!!;
 const ombiApiLocation = process.env.OMBI_API_LOCATION!!;
 
@@ -53,10 +51,5 @@ export async function requestMovie(
   );
 
   const requestEngineResult = (await res.json()) as RequestEngineResult;
-
-  console.log("===================");
-  console.log(requestEngineResult);
-  console.log("===================");
-
   return await requestEngineResult;
 }

@@ -21,7 +21,6 @@ const requestMediaAction = async ({
   }) => {
   try {
     console.log(body.user.name);
-    // console.log(payload);
     await ack();
     const mediaId = body.actions[0].value;
 
